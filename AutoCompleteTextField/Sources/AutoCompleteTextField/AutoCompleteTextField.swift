@@ -3,8 +3,6 @@
 
 import SwiftUI
 #if canImport(UIKit)
-    @available(macOS 10.15, *)
-
     public struct AutoCompleteTextFieldView: View {
         @State var names: [String] = ["Apple", "Peach", "Orange", "Banana", "Melon", "Watermelon", "Mandarin", "Mulberries", "Lemon", "Lime", "Loquat", "Longan", "Lychee", "Grape", "Pear", "Kiwi", "Mango"]
         @Binding var editing: Bool
