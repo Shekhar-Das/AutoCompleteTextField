@@ -19,6 +19,6 @@ let package = Package(
             name: "AutoCompleteTextField"),
         .testTarget(
             name: "AutoCompleteTextFieldTests",
-            dependencies: ["AutoCompleteTextField"]),
+            dependencies: []),
     ]
 )
