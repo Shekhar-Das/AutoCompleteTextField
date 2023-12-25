@@ -2,7 +2,7 @@
 // https://docs.swift.org/swift-book
 
 import SwiftUI
-#if canImport(UIKit)
+
     public struct AutoCompleteTextFieldView: View {
         @State var names: [String] = ["Apple", "Peach", "Orange", "Banana", "Melon", "Watermelon", "Mandarin", "Mulberries", "Lemon", "Lime", "Loquat", "Longan", "Lychee", "Grape", "Pear", "Kiwi", "Mango"]
         @Binding var editing: Bool
@@ -86,5 +86,5 @@ import SwiftUI
         }
     }
 
-#endif
+
 
